@@ -1,3 +1,6 @@
+// Binary Search
+// O(log(n)) - complexity of Binary Search
+
 #include <iostream>
 #include <vector>
 
