@@ -2,6 +2,7 @@
 // O(log(n)) - complexity of Binary Search
 
 #include <iostream>
+#include <algorithm>
 #include <vector>
 
 using namespace std;
@@ -31,6 +32,8 @@ int main()
     array.push_back(5);
     array.push_back(7);
     array.push_back(9);
+
+    sort(array.begin(), array.end());
 
     cout << binarySearch(array, 5) << endl;
     cout << binarySearch(array, -1) << endl;
