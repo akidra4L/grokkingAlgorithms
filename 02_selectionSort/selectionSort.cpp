@@ -1,3 +1,6 @@
+// Selection Sort
+// O(n^2) - complexity of Selection Sort
+
 #include <iostream>
 #include <vector>
 
